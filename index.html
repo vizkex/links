@@ -8,7 +8,7 @@
     <style>
     *{
       text-decoration: none;
-        overflow:hidden
+      overflow-x: hidden    
     }
     body, html{
       background-color:black;
@@ -33,7 +33,8 @@
       font-size:1.5em;
       font-weight:bold;
       color:#fff;
-      padding: 0 19.4em 0 0;
+      margin: 0;
+      display: inline-flex;
     }
     ul{
       box-sizing: border-box;
@@ -51,18 +52,25 @@
       margin:0.7em auto;
       font-weight: bold;
     }
-    p{
+    main > ul >p{
       color:rgb(255, 255, 255,0.3);
       margin:0;
       text-align: center;
       font-size:13px;
       margin: 30px 0px 0px 0px;
     }
+    p{
+      margin:9px;
+      padding: 0;
+      font-size: 13px;
+      color:rgb(255, 255, 255,0.3);
+    }
     ul > li >a {
       display: flex;
       flex-direction: row;
       justify-content: center;
       align-items: center;
+      text-align: center;
     }
     main{
       margin-top:0px;
@@ -79,25 +87,29 @@
     ::-webkit-scrollbar-thumb{
       background-color:#222222;
     }
-        a{
-            color:#fff;
-        }
+    a{
+      color:#fff;
+    }
+    hr{
+      width: 20%;
+     }
     </style>
 </head>
 <body>
     <header>
     <img src="defulit avater SMALLSIZE.png"/>
+    <p>@vizkex</p>
     </header>
     <main>
         <ul>
-          <h1>Links</h1>
+          <h1>Links<p>May interest you</p></h1>
         <li><a href="" target="_blank" >My website soon...</a></li>
         <li><a href="https://www.instagram.com/vizkex/" target="_blank">Instagram</a></li>
         <li><a href="https://twitter.com/vizkex" target="_blank">Twitter</a></li>
         <li><a href="https://github.com/vizkex/MyNvim" target="_blank">GitHub</a></li>
         <li><a href="" target="_blank">Youtube soon..</a></li>
         <li><a href="" target="_blank">Twitch soon..</a></li>
-        <p>desgin and programd by vizkex :P</p>
+        <p>Designed and programmed by vizkex :P</p>
       </ul>
     </main>
 </body>
